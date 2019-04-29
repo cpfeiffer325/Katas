@@ -3,7 +3,7 @@ let camelCase = function(input) {
   var camelCase = [];
 
   for (var i = 0; i < arr.length; i++) {
-    if (i >= 0) {
+    if (i > 0) {
       var char = "";
       char =  arr[i].charAt(0).toUpperCase();
       camelCase.push(char + arr[i].slice(1));
